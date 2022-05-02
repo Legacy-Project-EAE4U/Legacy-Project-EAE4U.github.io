@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "Facile Sans";
+  src: url(Facile_Sans.ttf);
+}
+
 :root {
   --color-light: #ffffff;
   --color-dark: #5D0D0C;
