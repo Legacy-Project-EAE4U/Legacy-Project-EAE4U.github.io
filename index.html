@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Lounge</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href=""><img src="images/algonquin.png" alt="Algonquin Logo" id="navbar-logo"></a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-links" id="home-page">Acceuil</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#catalog" class="navbar-links" id="catalog-page">Catalogue</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#about" class="navbar-links" id="about-page">À Propos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Bibliotèque</h1>
+                <h1>Étudiante</h1>
+            </div>
+            <div class="slideshow-container" id="slide-con">
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                <br>
+                
+                    <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                </div>
+                
+            
+        </div>
+      </div>
+      <div class="content">
+          <div class="content-container">
+              <h2>Les Plus Populaire</h2>
+                <input type="file" id="input">
+                <ul  class='book-collection'id="book-list"></ul>
+          </div>
+      </div>
+      <div class="bottom-page">
+        <h2>Recomendation</h2>
+          <div class="recomend-container">
+              <div class="card">
+                <label class="input">
+                  <input class="input__field" type="text" placeholder=" " />
+                  <span class="input__label">Entrer le titre...</span>
+                </label>
+                <label class="input2">
+                    <input class="input__field2" type="text" placeholder=" " />
+                  <span class="input__label2">Entrer l'auteur...</span>
+                </label>
+                <div class="button-group">
+                  <button class="sumbit">Envoyer</button>
+                  <p class='sumbit' id="soumis">Soumis</p>
+                </div>
+              </div>
+      </div>
+    <script src="app.js"></script>
+    <script src="collection.js"></script>
+
+    
+</body>
+</html>

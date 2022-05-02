@@ -1,0 +1,14 @@
+PHP:
+when book(link) is click--->Create a iD variable.
+ID = data[5] (last element of excel sheet)
+Use the ID in the new page and get information from the book ID.
+
+Book page:
+Can either download pdf/epub file or click on 'reserver'.
+'reserver'---> show barcode, id
+(Need to be in personn to reserve the book)
+
+if not:
+make a reservation system.
+'reserver'---> show form(first name, last name, book borrowed, date borowed)----
+--->show in the databased  and book page that it is reserved.
