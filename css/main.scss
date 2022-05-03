@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/286e8cea636c4520dc3d1a4df56f52cf?family=Facile+Sans);
+@import url('http://fonts.cdnfonts.com/css/facile-sans');
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,10 +6,8 @@
     scroll-behavior: smooth;
 }
 @font-face {
-    font-family: "Facile Sans";
-    src: url("//db.onlinewebfonts.com/t/286e8cea636c4520dc3d1a4df56f52cf.eot"); 
-    src: url("//db.onlinewebfonts.com/t/286e8cea636c4520dc3d1a4df56f52cf.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/286e8cea636c4520dc3d1a4df56f52cf.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/286e8cea636c4520dc3d1a4df56f52cf.woff") format("woff"), url("//db.onlinewebfonts.com/t/286e8cea636c4520dc3d1a4df56f52cf.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/286e8cea636c4520dc3d1a4df56f52cf.svg#Facile Sans") format("svg");;
-  }
+    font-family: "Facile Sans" sans-serif;
+
 :root {
     --color-light: #ffffff;
     --color-dark: #5D0D0C;
@@ -23,10 +21,10 @@
     --size-radius: 4px;
 }
 a {
-    font-family: 'Facile Sans';
+    font-family: 'Facile Sans' sans-serif sans-serif;
 }
 h2{
-    font-family:'Facile Sans';
+    font-family:'Facile Sans' sans-serif;
     color:#5D0D0C;
 }
 .navbar {
@@ -36,7 +34,7 @@ h2{
     align-items: center;
     font-size: 1.5rem;
     top: 0;
-    font-family: 'Facile Sans';
+    font-family: 'Facile Sans' sans-serif;
     z-index: 100;
 
 }
@@ -88,7 +86,7 @@ h2{
     width:100%;
     margin-top:5px;
     padding:0;
-    font-family: 'Facile Sans';
+    font-family: 'Facile Sans' sans-serif;
     position: relative;
 } 
 .hero-container{
@@ -191,7 +189,7 @@ img {vertical-align: middle;}
     margin:0 120px;
     justify-content:center;
     h2{
-        font-family:'Facile Sans';
+        font-family:'Facile Sans' sans-serif;
         color:#5D0D0C;
     }
 }
@@ -399,7 +397,7 @@ button + button {
         box-sizing: border-box;
         margin: 0.1em;
         padding: 0;
-        font-family: 'Facile Sans';
+        font-family: 'Facile Sans' sans-serif;
         scroll-behavior: smooth;
     }
     .navbar-container{
