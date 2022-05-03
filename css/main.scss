@@ -5,8 +5,6 @@
     margin: 0;
     scroll-behavior: smooth;
 }
-@font-face {
-    font-family: "Facile Sans" sans-serif;
 
 :root {
     --color-light: #ffffff;
@@ -21,7 +19,7 @@
     --size-radius: 4px;
 }
 a {
-    font-family: 'Facile Sans' sans-serif sans-serif;
+    font-family: 'Facile Sans' sans-serif;
 }
 h2{
     font-family:'Facile Sans' sans-serif;
